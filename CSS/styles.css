@@ -1,0 +1,111 @@
+.container-header{
+    background-image:url(/Assets//Asset\ 1.svg);opacity:100;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:blanchedalmond;
+    height:300px;
+    width:100%;
+}
+
+
+
+#title {
+    font-size: 40pt;
+   font-family: 'Chivo', sans-serif;
+    color: black;
+    text-align: center;
+
+}
+
+
+.card{
+max-width: 20rem;
+max-height: 20rem;
+margin:10px;
+display:none
+}
+
+span{
+  font-family: 'Chivo', sans-serif;
+  font-size: 15pt;
+    text-align: center;
+    display:block;
+}
+
+.paragraph{
+    margin:50px;
+    font-size: 12pt;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+.container-about{
+   background-color:blanchedalmond ; 
+   display:flex;
+}
+
+#mypic{
+  height:200px;
+  border-radius:100%;
+  border: 3px solid black
+}
+
+/* #border{
+    border:3px darkslategray solid
+} */
+
+.topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: darkslategray ;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    /* font-family: 'Playfair Display', serif; */
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #2F4F4F;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: white;
+    /* color: white; */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+        transform: scale(0);
+      }
+      100% {
+        transform: scale(1);
+
+      }
+  }
+
+ .animate-me{
+   animation: fadeIn 2s;
+   width: 30px;
+   height: 30px
+ }
+
+/* #fleminglogo{
+  height:300px;
+} */
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 767px) {
+  {
+    background: url('/Assets/Asset\ 1.svg')
+  }
+}
