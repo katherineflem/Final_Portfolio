@@ -3,16 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>FINAL PROJECT</title>
+    <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel='stylesheet' href="/CSS//styles.css" type='text/css'>
-    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="/CSS/styles.css" type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 </head>
 
 <body>
+    <!-- NAVBAR -->
     <nav class="navbar shadow navbar-expand-lg navbar-light row topnav">
         <div class="col-md-12">
             <a href="index.html">
@@ -24,76 +26,118 @@
             <a href="contact.html">Contact</a>
         </div>
     </nav>
+    <!-- HEADER -->
     <div class="main-container">
-    <div class="container-header m-2 p-2">
-        <div class="row">
-            <div class="col-md-12">
-                <h1 id=title>K. FLEMING DESIGNS
-                    <span>Web Developer & Graphic Designer</span>
-                </h1>
-            </div>
-        </div>
-    </div>
-    <div class="row justify-content-center m-5">
-        <button class= "btn btn-outline-primary">View Projects</button>
-    </div>
-    <div class="container">
-        <div class="row justify-content-around m-3">
-            <div class="col-sm-4">
-                <div class="card bg-light shadow">
-                    <img src="/Assets/BCP Full Lockup-04.svg" class="card-img" alt="ramicon">
-                    <div class="card-img">
-                        <!-- <h5 class="card-title" style="text-align: center;">Bellwether Capital Logo</h5> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card bg-light shadow">
-                    <img src="/Assets/sunshinelogo_transparent background-03.png" class="card-img" alt="sunshine">
-                    <div class="card-img">
-                        <!-- <h5 class="card-title" style="text-align: center;">Sunshines by the Dozen Logo</h5> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card bg-light shadow">
-                    <img src="/Assets/Screen Shot 2020-06-15 at 11.11.33 PM.png" class="card-img" alt="fleming">
-                    <div class="card-img" id="fleminglogo">
-                        <!-- <h5 class="card-title" style="text-align: center;">Bellwether Capital Logo</h5> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card bg-light shadow">
-                    <img src="https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg" class="card-img" alt="fleming">
-                    <div class="card-img" id="placeholder">
-                        <!-- <h5 class="card-title" style="text-align: center;">Bellwether Capital Logo</h5> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card bg-light shadow">
-                    <img src="https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg" class="card-img" alt="fleming">
-                    <div class="card-img" id="placeholder">
-                        <!-- <h5 class="card-title" style="text-align: center;">Bellwether Capital Logo</h5> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card bg-light shadow">
-                    <img src="https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg" class="card-img" alt="fleming">
-                    <div class="card-img" id="placeholder">
-                        <!-- <h5 class="card-title" style="text-align: center;">Bellwether Capital Logo</h5> -->
-                    </div>
+        <div class="container-header m-2 p-2">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 id=title>K. Fleming Designs
+                        <span>Web Developer & Graphic Designer</span>
+                    </h1>
                 </div>
             </div>
         </div>
-
+        <!-- BODY -->
+        <!-- <div class="row justify-content-center m-5">
+            <button class="btn btn-outline-primary">My Services</button>
+        </div> -->
+        <div class="filter-container">
+            <ul class="filter">
+                <li>Filter:</li>
+                <a href="">
+                    <li id="filter-item-web">WEB</li>
+                </a>
+                <a href="">
+                    <li id='filter-item-brand'>BRANDING</li>
+                </a>
+                <a href="">
+                    <li id='filter-item-print'>PRINT</li>
+                </a>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="row justify-content-around m-3">
+                <div class="col-sm-4">
+                    <div class="card web bg-light shadow brand">
+                        <img class="card-img-top" src="/Assets/BCP Full Lockup-04.svg" class="card-img" alt="sunshine">
+                        <div class="card-body">
+                            <h5 class="card-title">Bellwether Capital Partners Logo</h5>
+                            <!-- <p class="card-text"></p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card print bg-light shadow brand">
+                        <img class="card-img-top" src="/Assets/sunshinelogo_transparent background-03.png"
+                            class="card-img" alt="sunshine">
+                        <div class="card-body">
+                            <h5 class="card-title">Sunshine by the Dozen Branding</h5>
+                            <!-- <p class="card-text"></p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card web bg-light shadow web">
+                        <img class="card-img-top" src="/Assets/Screen Shot 2020-06-15 at 11.11.33 PM.png"
+                            class="card-img" alt="sunshine">
+                        <div class="card-body">
+                            <h5 class="card-title">Fleming Construction Branding</h5>
+                            <!-- <p class="card-text"></p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card bg-light shadow brand">
+                        <img class="card-img-top" src="/Assets/MG sticker.png" class="card-img" alt="sunshine">
+                        <div class="card-body">
+                            <h5 class="card-title">Fun Graphics</h5>
+                            <!-- <p class="card-text"></p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card bg-light shadow print">
+                        <img class="card-img-top" src="/Assets/Vic.png" class="card-img" alt="sunshine">
+                        <div class="card-body">
+                            <h5 class="card-title">Dog Prints</h5>
+                            <!-- <p class="card-text"></p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card bg-light shadow print">
+                        <img class="card-img-top" src="/Assets/Viator Invitation_Page_1.png" class="card-img"
+                            alt="sunshine">
+                        <div class="card-body">
+                            <h5 class="card-title">Invitations</h5>
+                            <!-- <p class="card-text"></p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card bg-light shadow brand">
+                        <img class="card-img-top" src="/Assets/Asset 1.svg" class="card-img" alt="sunshine">
+                        <div class="card-body">
+                            <h5 class="card-title">Align by Allie Branding</h5>
+                            <!-- <p class="card-text"></p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SCRIPT TAGS JQUERY & JSFILE -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/JS/app.js"></script>
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/JS/app.js"></script>
-</div>
 </body>
 
 </html>
